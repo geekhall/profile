@@ -1,0 +1,86 @@
+alias bin='cd $HOME/bin'
+alias site='cd $HOME/Sites'
+alias wk='cd $HOME/workspace'
+alias tx='ssh root@49.232.134.103'
+alias geekhall='cd $HOME/Sites/geekhall.cn; conda activate venv'
+alias budd='cd $HOME/Sites/Budd; conda deactivate'
+alias mbp='ssh yiny@macbook-pro'
+alias mba='ssh yiny@macbook-air'
+alias tp='trans put'
+alias pt='trans put'
+alias tg='trans get'
+alias gt='trans get'
+alias cr='$HOME/workspace/algorithms/utils/crawl_slut.py'
+alias nd='npm run dev'
+alias php='/Applications/MAMP/bin/php/php8.0.8/bin/php -c "/Library/Application Support/appsolute/MAMP PRO/conf/php8.0.8.ini"'
+
+#####################
+# npm
+#####################
+alias nio="ni --prefer-offline"
+alias s="nr start"
+alias d="nr dev"
+alias b="nr build"
+alias bw="nr build --watch"
+alias nt="nr test"
+alias tu="nr test -u"
+alias tw="nr test --watch"
+alias w="nr watch"
+alias p="nr play"
+alias c="nr typecheck"
+alias lint="nr lint"
+alias lintf="nr lint --fix"
+alias release="proxy; nr release"
+alias re="proxy; nr release"
+
+#####################
+# git
+#####################
+alias main='git checkout main'
+alias gco='git checkout'
+alias gcob='git checkout -b'
+
+alias grb='git rebase'
+alias grbom='git rebase origin/master'
+alias grbc='git rebase --continue'
+
+alias gl='git log'
+alias glo='git log --oneline --graph'
+
+alias grh='git reset HEAD'
+alias grh1='git reset HEAD~1'
+
+alias ga='git add'
+alias gA='git add -A'
+
+alias gc='git commit'
+alias gcm='git commit -m'
+alias gca='git commit -a'
+alias gcam='git add -A && git rebase origin/master'
+
+alias gxn='git clean -dn'
+alias gx='git clean -df'
+
+alias ghci='gh run list -L 1'
+
+alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+alias chrome-debug='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+
+
+#####################
+# docker
+#####################
+alias pd='docker exec -it pwn_test /bin/bash'
+
+#####################
+# virtual machine
+#####################
+alias upwn='ssh giantbranch@10.211.55.3'
+alias up18='ssh parallels@10.211.55.4'
+alias ctf='cd $HOME/ctf'
+
+
+#####################
+# System call table
+#####################
+
